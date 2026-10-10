@@ -8,7 +8,7 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE('Pi = ' ||   vPi);
 END;
 
--- Declarando Constante Tipo CHAR e VARCHAR2
+-- Declaring CHAR and VARCHAR2 Constants
 SET SERVEROUTPUT ON
 DECLARE
   vCaracterTamFixo CONSTANT CHAR(2) := 'RS';
