@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/project-animal.png" alt="Emblema de PL-SQL-Training" width="144" height="144">
+  <img src="assets/banner-v2.png" alt="PL-SQL-Training" width="100%">
 </p>
-
-<h1 align="center">PL-SQL-Training</h1>
 
 <p align="center">Exercícios de blocos, variáveis e constantes em programação procedural com Oracle PL/SQL.</p>
 
