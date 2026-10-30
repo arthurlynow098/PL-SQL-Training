@@ -4,21 +4,33 @@
 
 <p align="center">Exercícios de blocos, variáveis e constantes em programação procedural com Oracle PL/SQL.</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Oracle-C52E36?style=flat-square" alt="Oracle">
-  <img src="https://img.shields.io/badge/PL%2FSQL-24272E?style=flat-square" alt="PL/SQL">
-  <img src="https://img.shields.io/badge/Estudos-24272E?style=flat-square" alt="Estudos">
-</p>
+<p align="center"><img src="assets/docs/tags.svg" alt="Oracle · PL/SQL · Estudos" width="72%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
 ---
 
-## Visão geral
+<a id="explore-o-projeto"></a>
+
+![Explore o projeto](assets/docs/section-01.svg)
+
+![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
+
+| Área | O que você encontra | Acesso direto |
+|---|---|---|
+| **Blocos** | Primeiro exercício de PL/SQL. | [Abrir blocos →](Begin/Beginning_01.sql) |
+| **Constantes** | Exercício dedicado a constantes. | [Abrir constantes →](Begin/Constants_02.sql) |
+| **Estudos** | Scripts organizados para consulta e execução. | [Abrir estudos →](Begin) |
+
+<a id="visão-geral"></a>
+
+![Visão geral](assets/docs/section-02.svg)
 
 Este repositório acompanha minha trilha de estudos para a formação **Oracle PL/SQL Specialist** e para as disciplinas de Banco de Dados da faculdade, documentando em scripts comentados a anatomia dos blocos PL/SQL (DECLARE, BEGIN, EXCEPTION, END).
 
-## Recursos
+<a id="recursos"></a>
+
+![Recursos](assets/docs/section-03.svg)
 
 | Script / Tópico | O que exercita |
 |---|---|
@@ -26,7 +38,9 @@ Este repositório acompanha minha trilha de estudos para a formação **Oracle P
 | Constants_02.sql | Uso da palavra-chave CONSTANT, imutabilidade de valores em tempo de execução e boas práticas para taxas, limites e parâmetros fixos. |
 | Ativação de saída (SET SERVEROUTPUT ON) | Configuração do cliente Oracle SQL Developer / SQL*Plus para captura do buffer de mensagens procedurais. |
 
-## Tecnologias
+<a id="tecnologias"></a>
+
+![Tecnologias](assets/docs/section-04.svg)
 
 - **Oracle PL/SQL** para lógica procedural junto ao SGBD;
 - **Pacote DBMS_OUTPUT** para inspeção e depuração de variáveis durante a execução dos blocos.
@@ -51,7 +65,7 @@ flowchart LR
 ```text
 PL-SQL-Training/
 ├── assets/
-│   └── project-animal.png          Emblema do projeto
+│   └── banner-v2.png               Banner do projeto
 ├── Begin/
 │   ├── Beginning_01.sql            Blocos anônimos, variáveis e DBMS_OUTPUT
 │   └── Constants_02.sql            Declaração e uso de constantes (CONSTANT)
@@ -60,7 +74,9 @@ PL-SQL-Training/
 
 </details>
 
-## Como executar
+<a id="como-executar"></a>
+
+![Como executar](assets/docs/section-05.svg)
 
 1. Conecte-se a uma instância **Oracle Database** (local, Docker gvenzl/oracle-xe ou **Oracle Live SQL** no navegador).
 2. Habilite a saída do servidor antes de rodar os blocos:
