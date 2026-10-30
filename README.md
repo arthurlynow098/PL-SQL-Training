@@ -4,7 +4,7 @@
 
 <p align="center">Exercícios de blocos, variáveis e constantes em programação procedural com Oracle PL/SQL.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="Oracle · PL/SQL · Estudos" width="72%"></p>
+<p align="center"><img src="assets/docs/tags.svg" alt="Oracle · PL/SQL · Estudos" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
@@ -16,11 +16,12 @@
 
 ![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-| Área | O que você encontra | Acesso direto |
-|---|---|---|
-| **Blocos** | Primeiro exercício de PL/SQL. | [Abrir blocos →](Begin/Beginning_01.sql) |
-| **Constantes** | Exercício dedicado a constantes. | [Abrir constantes →](Begin/Constants_02.sql) |
-| **Estudos** | Scripts organizados para consulta e execução. | [Abrir estudos →](Begin) |
+<table width="100%">
+<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
+<tr><td><strong>Blocos</strong></td><td>Primeiro exercício de PL/SQL.</td><td><a href="Begin/Beginning_01.sql">Abrir blocos →</a></td></tr>
+<tr><td><strong>Constantes</strong></td><td>Exercício dedicado a constantes.</td><td><a href="Begin/Constants_02.sql">Abrir constantes →</a></td></tr>
+<tr><td><strong>Estudos</strong></td><td>Scripts organizados para consulta e execução.</td><td><a href="Begin">Abrir estudos →</a></td></tr>
+</table>
 
 <a id="visão-geral"></a>
 
