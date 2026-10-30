@@ -1,37 +1,33 @@
 <p align="center">
-  <img src="assets/banner-v2.png" alt="PL-SQL-Training" width="100%">
+  <img src="assets/identity/banner.png" alt="PL-SQL-Training" width="100%">
 </p>
 
 <p align="center">Exercícios de blocos, variáveis e constantes em programação procedural com Oracle PL/SQL.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="Oracle · PL/SQL · Estudos" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
----
+<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
 
 <a id="explore-o-projeto"></a>
 
-![Explore o projeto](assets/docs/section-01.svg)
+## Por onde começar
 
-![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-<table width="100%">
-<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
-<tr><td><strong>Blocos</strong></td><td>Primeiro exercício de PL/SQL.</td><td><a href="Begin/Beginning_01.sql">Abrir blocos →</a></td></tr>
-<tr><td><strong>Constantes</strong></td><td>Exercício dedicado a constantes.</td><td><a href="Begin/Constants_02.sql">Abrir constantes →</a></td></tr>
-<tr><td><strong>Estudos</strong></td><td>Scripts organizados para consulta e execução.</td><td><a href="Begin">Abrir estudos →</a></td></tr>
-</table>
+- **[Blocos](Begin/Beginning_01.sql)** — Primeiro exercício de PL/SQL.
+- **[Constantes](Begin/Constants_02.sql)** — Exercício dedicado a constantes.
+- **[Estudos](Begin)** — Scripts organizados para consulta e execução.
+
 
 <a id="visão-geral"></a>
 
-![Visão geral](assets/docs/section-02.svg)
+## Visão geral
 
 Este repositório acompanha minha trilha de estudos para a formação **Oracle PL/SQL Specialist** e para as disciplinas de Banco de Dados da faculdade, documentando em scripts comentados a anatomia dos blocos PL/SQL (DECLARE, BEGIN, EXCEPTION, END).
 
 <a id="recursos"></a>
 
-![Recursos](assets/docs/section-03.svg)
+## Recursos
 
 | Script / Tópico | O que exercita |
 |---|---|
@@ -41,7 +37,7 @@ Este repositório acompanha minha trilha de estudos para a formação **Oracle P
 
 <a id="tecnologias"></a>
 
-![Tecnologias](assets/docs/section-04.svg)
+## Tecnologias
 
 - **Oracle PL/SQL** para lógica procedural junto ao SGBD;
 - **Pacote DBMS_OUTPUT** para inspeção e depuração de variáveis durante a execução dos blocos.
@@ -66,7 +62,7 @@ flowchart LR
 ```text
 PL-SQL-Training/
 ├── assets/
-│   └── banner-v2.png               Banner do projeto
+│   └── identity/banner.png               Banner do projeto
 ├── Begin/
 │   ├── Beginning_01.sql            Blocos anônimos, variáveis e DBMS_OUTPUT
 │   └── Constants_02.sql            Declaração e uso de constantes (CONSTANT)
@@ -77,7 +73,7 @@ PL-SQL-Training/
 
 <a id="como-executar"></a>
 
-![Como executar](assets/docs/section-05.svg)
+## Como executar
 
 1. Conecte-se a uma instância **Oracle Database** (local, Docker gvenzl/oracle-xe ou **Oracle Live SQL** no navegador).
 2. Habilite a saída do servidor antes de rodar os blocos:
@@ -86,7 +82,7 @@ PL-SQL-Training/
    ```
 3. Execute os scripts da pasta [Begin/](Begin) no **Oracle SQL Developer**, DBeaver ou SQL*Plus.
 
----
+<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
 
 <p align="center">
   <a href="https://github.com/arthurlynow098">GitHub</a> &nbsp;·&nbsp;
